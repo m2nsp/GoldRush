@@ -1,3 +1,4 @@
+# 2303, 2002 크레인 인형뽑기 게임
 def solution(board, moves):
     answer = 0      #터진 인형개수
     depth = len(board)  #인형 뽑기 기계 깊이
