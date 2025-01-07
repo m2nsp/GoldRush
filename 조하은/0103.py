@@ -1,4 +1,5 @@
-# 23회 기출 1번
+# 2301, 2001 ATM
+
 import sys
 input = sys.stdin.readline
 
