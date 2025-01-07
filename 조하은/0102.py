@@ -1,4 +1,4 @@
-# 23회 기출 2번
+# 2302, 2202 팰린드롬 만들기 
 
 def solution(name):
     counts = {}
