@@ -1,4 +1,5 @@
-# 23회 기출 3번
+# 2303, 2002 크레인 인형뽑기
+
 def solution(board, moves):
     arr = []
     answer = 0
