@@ -1,3 +1,5 @@
+# 2307 N-Queen
+
 def n_queens(n, row, board):
     # n개의 퀸을 모두 배치했다면 +1
     if row == n:
