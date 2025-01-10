@@ -2,7 +2,8 @@
 
 from collections import defaultdict
 
-def search(i, graph, visited):
+def search(i, graph):
+    visited = set() # 방문한 노드를 저장하는 set
     now = i
     while True:
         visited.add(now) # 방문한 노드는 set에 추가
@@ -31,10 +32,9 @@ def solution(edges):
             answer[0] = key # 새로운 정점 저장
             break
     
-    visited = set() # 방문한 노드를 저장하는 set
     # 새로운 정점과 연결된 노드들을 탐색
     for i in graph_out[answer[0]]: 
-        idx = search(i, graph_out, visited)
+        idx = search(i, graph_out)
         answer[idx] += 1
     
     return answer
