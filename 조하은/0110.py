@@ -1,3 +1,5 @@
+#2309 도넛과 막대 그래프
+
 from collections import defaultdict
 
 def search(i, graph, visited):
