@@ -1,3 +1,5 @@
+# 2204 문자열 압축
+
 def solution(s):
     n = len(s)
     
